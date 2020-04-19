@@ -2,7 +2,15 @@
 
 test
 ```lilypond
-  \new Staff <<
+#(set-default-paper-size "a8")
+\paper {
+    paper-height = 30
+}
+\header {
+    tagline = ##f
+}
+    
+\new Staff <<
     {c''2}
     \\
     {e'2}
@@ -21,4 +29,6 @@ test
     \\
     {a'''8}
   >>
+
 ```
+test

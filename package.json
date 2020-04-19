@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gitbook serve",
-    "build": "gitbook build"
+    "dev": "gitbook serve src",
+    "build": "gitbook build src",
+    "start-ide": "cd web-ide && pm2 start ../node_modules/http-server/bin/http-server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/PabulumExpress/music-notation-specification#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-lilypond": "^1.0.0"
+    "gitbook-plugin-lilypond": "^1.0.0",
+    "http-server": "^0.12.1",
+    "pm2": "^4.3.0"
   }
 }
