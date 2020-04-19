@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gitbook serve"
+    "dev": "gitbook serve",
+    "build": "gitbook build"
   },
   "repository": {
     "type": "git",
