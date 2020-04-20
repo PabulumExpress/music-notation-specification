@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "gitbook serve",
     "build": "gitbook build",
+    "start-gitbook-server": "pm2 start ./node_modules/gitbook-cli/bin/gitbook.js -- serve",
     "start-ide-portal": "cd web-ide-portal && pm2 start ../node_modules/http-server/bin/http-server"
   },
   "repository": {

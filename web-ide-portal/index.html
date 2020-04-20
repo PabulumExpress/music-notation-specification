@@ -10,7 +10,12 @@ position:absolute; top:0; left:50%;width: 50%; height: 100%;
     </style>
   </head>
   <body>
-    <iframe id="ide" src="http://localhost:3000"></iframe>
-    <iframe id="gitbook" src="http://localhost:4000"></iframe>
+    <script>
+    var host1 = location.protocol + '//' + location.hostname + ':3000';
+    var host2 = location.protocol + '//' + location.hostname + ':4000';
+
+    document.write('<iframe id="ide" src="' + host1 + '"></iframe>');
+    document.write('<iframe id="gitbook" src="' + host2 + '"></iframe>');
+    </script>
   </body>
 </html>
