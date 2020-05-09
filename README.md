@@ -1,5 +1,13 @@
 # 乐谱与音乐符号规范
 
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
 ```lilypond
         #(set-default-paper-size "a8")
         \paper {

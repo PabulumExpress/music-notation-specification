@@ -1,4 +1,4 @@
 {
-  "plugins": ["lilypond"]
+  "plugins": ["lilypond", "mermaid-gb3"]
 }
 
