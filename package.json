@@ -21,7 +21,7 @@
   "homepage": "https://github.com/PabulumExpress/music-notation-specification#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-lilypond": "^1.0.2",
+    "gitbook-plugin-lilypond": "^1.0.3",
     "http-server": "^0.12.1",
     "pm2": "^4.3.0"
   },
