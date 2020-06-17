@@ -26,6 +26,7 @@
     "pm2": "^4.3.0"
   },
   "dependencies": {
-    "gitbook-plugin-mermaid-gb3": "^2.1.0"
+    "gitbook-plugin-mermaid-gb3": "^2.1.0",
+    "mermaid": "^8.5.2"
   }
 }
