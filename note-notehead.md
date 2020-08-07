@@ -1,36 +1,7 @@
-# Notehead
-## 常规Notehead {#normal-notehead}
-  * 二分音符
-
-```lilypond
-        #(set-default-paper-size "a8")
-        \paper {
-            paper-height = 20
-        }
-        \header {
-            tagline = ##f
-        }
-            
-    \relative c'' {
-      c2
-    }
-```
-
-  * 四分音符...128分音符
-
-```lilypond
-        #(set-default-paper-size "a8")
-        \paper {
-            paper-height = 20
-        }
-        \header {
-            tagline = ##f
-        }
-            
-    \relative c'' {
-      c4 c8 c16 c32 c64 c128
-    }
-```
+## 1. Notehead类型
+* 常规Notehead {#normal-notehead}
+    * 二分音符
+    * 四分音符 ... 128分音符
   * 泛音等特殊Notehead
 
     放在技巧部分
@@ -106,4 +77,38 @@
         \new Staff <<
           c''1
         >>
+```
+
+## 2. 具体实现
+
+### 2.1 二分音符
+
+```lilypond
+        #(set-default-paper-size "a8")
+        \paper {
+            paper-height = 20
+        }
+        \header {
+            tagline = ##f
+        }
+            
+    \relative c'' {
+      c2
+    }
+```
+
+### 2.2 四分音符 ... 128分音符
+
+```lilypond
+        #(set-default-paper-size "a8")
+        \paper {
+            paper-height = 20
+        }
+        \header {
+            tagline = ##f
+        }
+            
+    \relative c'' {
+      c4 c8 c16 c32 c64 c128
+    }
 ```

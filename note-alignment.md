@@ -8,13 +8,41 @@
 * 是否存在倚音以及倚音的类型
 * 是否存在Slur以及Slur的类型
 * 是否存在Tie以及Tie的类型
-* 是否存在tuplet以及tuplet的类型
+* 是否存在Tuplet以及Tuplet的类型
 * 是否存在临时变号以及临时变号的类型
 * 该音符是否为beam的一部分
+* Beam中插入Clef或Rest
 * 是否存在其他技巧符号
+* measure的宽度
 
-等等独立事件，还可能依赖于他们之间的组合
-所以需要同时确定notehead的位置，beam的尺寸和位置，以及其他所有相关符号的尺寸位置。
+等等独立事件，还可能依赖于他们之间的组合。有时甚至存在互相依赖的情况（例如Measure的宽度取决于Measure内部的宽度，Measure内部的宽度又取决于Measure的宽度。）
+在很多情况下需要同时确定notehead的位置，beam的尺寸和位置，以及其他所有相关符号的尺寸位置。
+
+首先确定通用的排版规则
+1. Stem方向
+2. Stem高度
+  * Tails与Stem高度
+3. Rest的位置
+4. Beam角度与方向
+  * Beam与Stem高度
+  * Beam与Stem方向
+  * Beam中插入Clef
+  * Beam中插入Rest
+  * 异向Stem的Beam
+5. Beam分离
+6. 旋律与Beam
+* Accidentals
+* Chord
+* Unison
+* Dots
+* Ties
+    * 方向
+* Slur
+* Dynamics
+* Grace
+* 节奏与间隔
+* Tuplets
+
 
 ### 单stem多notehead
 notehead的位置计算方式

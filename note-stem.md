@@ -1,5 +1,6 @@
-## 1. stem类型
-### 同向非对齐嵌入型双stem
+## stem类型
+* 同向非对齐嵌入型双stem
+
 将右上角两个音符或者左下角两个音符视为一组(尽管从理论上他们四个是一组的)，他们的stem是同向的非垂直对齐的
 ```lilypond
         #(set-default-paper-size "a8")
@@ -20,7 +21,8 @@
           { e'2 }  % 4: second-lowest
         >>
 ```
-### 同向非对齐非嵌入型双stem
+
+* 同向非对齐非嵌入型双stem
 ```lilypond
         #(set-default-paper-size "a8")
         \paper {
@@ -40,7 +42,8 @@
           { d'2 }  % 4: second-lowest
         >>
 ```
-### 异向对齐双stem
+* 异向对齐双stem
+
 它们的Notehead垂直对齐
 ```lilypond
         #(set-default-paper-size "a8")
@@ -57,7 +60,7 @@
           { c'8 }
         >>
 ```
-### 异向对齐共享型双stem
+* 异向对齐共享型双stem
 ```lilypond
         #(set-default-paper-size "a8")
         \paper {
@@ -73,7 +76,7 @@
           { f'8 }
         >>
 ```
-### 异向非对齐嵌入型双stem(A型)
+* 异向非对齐嵌入型双stem(A型)
 ```lilypond
         #(set-default-paper-size "a8")
         \paper {
@@ -91,7 +94,7 @@
           >> \bar "|"
         }
 ```
-### 异向非对齐嵌入型双stem(B型)
+* 异向非对齐嵌入型双stem(B型)
 ```lilypond
         #(set-default-paper-size "a8")
         \paper {
@@ -110,7 +113,8 @@
         }
 ```
 
-### 异向非对齐非嵌入型双stem
+* 异向非对齐非嵌入型双stem
+
 TODO stem组的方向 或者 stem组的左右位置的计算规则
 ```lilypond
         #(set-default-paper-size "a8")
