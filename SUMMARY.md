@@ -21,3 +21,4 @@
     * [Other](note-other.md)
     * [Alignment](note-alignment.md)
 * [Terms](terms.md)
+* [Application](application.md)
