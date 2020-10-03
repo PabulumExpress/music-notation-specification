@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gitbook serve",
-    "build": "gitbook build",
-    "start-gitbook-server": "pm2 start ./node_modules/gitbook-cli/bin/gitbook.js -- serve",
+    "dev": "docsify serve docs",
     "start-ide-portal": "cd web-ide-portal && pm2 start ../node_modules/http-server/bin/http-server"
   },
   "repository": {
@@ -20,13 +18,10 @@
   },
   "homepage": "https://github.com/PabulumExpress/music-notation-specification#readme",
   "devDependencies": {
-    "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-lilypond": "^1.0.3",
     "http-server": "^0.12.1",
     "pm2": "^4.3.0"
   },
   "dependencies": {
-    "gitbook-plugin-mermaid-gb3": "^2.1.0",
-    "mermaid": "^8.5.2"
+    "docsify-cli": "^4.4.1"
   }
 }
