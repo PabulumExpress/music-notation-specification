@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "docsify serve docs",
+    "start-doc-server": "pm2 start \"./node_modules/docsify-cli/bin/docsify serve docs -p 4000\"",
     "start-ide-portal": "cd web-ide-portal && pm2 start ../node_modules/http-server/bin/http-server"
   },
   "repository": {
