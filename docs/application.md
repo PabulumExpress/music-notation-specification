@@ -1,4 +1,4 @@
-# 乐谱生成 {#score-generation}
+# 乐谱生成
 ```mermaid
 graph TD;
   A[主音乐 + 技巧 + 排版参数]-->B[乐谱排版算法]
